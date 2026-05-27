@@ -1,0 +1,28 @@
+Package: polygramLCR
+Type: Package
+Title: Logistic Polygram Regression for Three-Part Compositional Predictors
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Ju-Seong", "Lee",
+      email = "ljs000603@gmail.com",
+      role = "aut"
+    ),
+    person(
+      "Jae-Hwan", "Jhong",
+      email = "jjh25@chungbuk.ac.kr",
+      role = c("aut", "cre")
+    )
+  )
+Author: Ju-Seong Lee [aut],
+    Jae-Hwan Jhong [aut, cre]
+Maintainer: Jae-Hwan Jhong <jjh25@chungbuk.ac.kr>
+Description: ADMM fitting routines for logistic polygram regression in isometric
+    log-ratio coordinates for three-part compositional predictors.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    Rcpp (>= 1.0.14),
+    RTriangle
+LinkingTo: Rcpp

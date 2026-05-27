@@ -1,0 +1,22 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+
+# Local/generated replication outputs. Some files exceed GitHub's 100 MB limit.
+replication/outputs/
+
+# Manuscript materials are kept local and are not pushed to this repository.
+paper/
+
+# Conference poster drafts and compiled artifacts are kept local.
+poster/
+
+# R package build and compiled artifacts.
+/*.tar.gz
+replication/*.tar.gz
+replication/polygramLCR/*.tar.gz
+*.o
+*.so
+*.dll
+*.dylib
